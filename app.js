@@ -5,7 +5,7 @@ const bcrypt = require('bcryptjs');
 const app = express();
 const port = 10000;
 
-app.use(express.json()); // ✅ Fix: Parse JSON bodies
+app.use(express.json()); //  Fix: Parse JSON bodies
 
 const SECRET_KEY = 'your-secret-key'; // Replace with a strong secret in production
 
